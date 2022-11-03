@@ -37,7 +37,7 @@ class ex01 {
         visited = new boolean[N + 1];
         dfs(V);
 
-        System.out.println();
+        System.out.println(123);
 
         visited = new boolean[N + 1];
         bfs(V);
