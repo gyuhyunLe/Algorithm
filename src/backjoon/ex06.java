@@ -7,7 +7,10 @@ package src.backjoon;
 
 헤걀 - 1. 오름차순 정렬한다.
       2. 자기 자신은 빼고 배열에 담아야 함으로 boolean 배열을 추가해줬다.
-      3.
+      3. dfs함수에 arr배열의 startIdx와 depth를 인자로 전달한다.
+      4. 자기 자신은 빼고 출력할 배열에 담아야 하므로 boolean 배열인 visited에 방문 처리인 true를 해주고 dfs 재귀 호출을 한 뒤 다시 false처리를 해준다.
+      5. 출력할 배열인 printArr에 depth값을 인덱스로 하여 arr[i]을 넣어준다.
+      6. dfs 재귀 호출을 할 때 startIdx에 i + 1을 넣어주고 depth 값에 depth + 1을 해준다.
 */
 import java.util.*;
 
