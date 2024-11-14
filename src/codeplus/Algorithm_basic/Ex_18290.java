@@ -10,7 +10,7 @@ import java.util.Scanner;
       4. 시작점+1 으로 재귀를 실행한다.
       5. 시작점이 선택개수(k)와 같으면 출력 후 백트래킹으로 원상 복구한다.
 */
-class study10 {
+class Ex_18290 {
     public static int n;
     public static int m;
     public static int k;
