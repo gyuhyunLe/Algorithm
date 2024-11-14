@@ -14,7 +14,7 @@ package src.codeplus.Algorithm_basic;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-class study01 {
+class Ex_1260 {
     static int[][] arr;
     static boolean[] visited;
 

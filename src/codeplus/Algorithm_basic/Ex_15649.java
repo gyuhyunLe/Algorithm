@@ -7,7 +7,7 @@ package src.codeplus.Algorithm_basic;
        2. 방문 여부를 담는 배열 visit = false 이면 방문 안한 것이므로 depth = M 같을 떄 까지 arr 배열에 값을 담는다.
  */
 import java.util.Scanner;
-public class study02 {
+public class Ex_15649 {
     public static int[] arr;
     public static boolean[] visit;
 
