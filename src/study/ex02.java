@@ -14,9 +14,9 @@ public class ex02 {
         String answer = "";
         for(char c : str.toCharArray()) {
             if(Character.isLowerCase(c)) {
-                answer += Character.isUpperCase(c);
+                answer += Character.toUpperCase(c);
             }else {
-                answer += Character.isLowerCase(c);
+                answer += Character.toLowerCase(c);
             }
         }
         return answer;
