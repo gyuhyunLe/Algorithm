@@ -28,6 +28,7 @@ public class ex05 {
             }
         }
         answer = new String(s);
+        //answer = String.valueOf(s);
         return answer;
     }
 }
